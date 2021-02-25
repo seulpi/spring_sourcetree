@@ -39,7 +39,7 @@ public class BoardController {
 		
 		return "home";
 	}
-	
+	//#1 delete
 	@RequestMapping(value = "/delete", method = RequestMethod.GET)
 	public String delete(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
