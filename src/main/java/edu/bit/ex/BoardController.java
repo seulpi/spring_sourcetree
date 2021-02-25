@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 
 
-//#4
+//#2
 //#1
 @Controller
 public class BoardController {
